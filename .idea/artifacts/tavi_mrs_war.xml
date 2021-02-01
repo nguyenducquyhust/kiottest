@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tavi_mrs:war">
+    <output-path>$PROJECT_DIR$/BackEnd/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tavi_mrs</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tavi_mrs-0.0.1.war">
+      <element id="artifact" artifact-name="tavi_mrs:war exploded" />
+    </root>
+  </artifact>
+</component>
